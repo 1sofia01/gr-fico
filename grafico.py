@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 df = pd.read_excel('exportacao_geral.xlsx')
-st.title('Exportação por Estado em 2022')
+st.title('Exportação por Estado (UF)')
 
 st.bar_chart(
   df,
