@@ -2,10 +2,7 @@ import streamlit as st
 import pandas as pd
 
 df = pd.read_excel('exportacao_geral.xlsx')
-
-st.write(df.columns.tolist())
 st.write(df.head())
-st.write(df.shape)
 
 st.title('Exportação por Estado (UF)')
 
