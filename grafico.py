@@ -1,5 +1,5 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv('eleitorado_por_zona_eleitoral.csv', sep=';')
+df = pd.read_csv('exportacao_geral.xlsx)
 st.bar_chart(df)
